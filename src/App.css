@@ -1,13 +1,44 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
-button{
-  color: red;
-  background-color: black;
-  padding: 20px;
-  margin: 20px;
+body {
+  background: #ae947f;
+}
+button {
+  /* color: red; */
+  all: unset;
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  /* background-color: black; */
+  /* padding: 20px;
+  margin: 20px; */
+}
+
+.count {
+  font-size: 50px;
+  transform: translateY(170px);
+  color: #ae947fc1;
+}
+
+.add {
+  transform: translate(17px, 150px);
+  background-color: hidden;
+  border: none;
+  color: none;
+  color: rgba(0, 0, 0, 0);
+}
+
+.ayrish {
+  transform: translate(5px, 179px);
+  color: rgba(0, 0, 0, 0);
+}
+
+.qoshish {
+  transform: translate(-13px, 209px);
+  color: rgba(0, 0, 0, 0);
 }
